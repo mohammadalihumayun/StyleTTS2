@@ -2,7 +2,7 @@ log_dir: "logs/20201006"
 save_freq: 5
 device: "cuda"
 epochs: 180
-batch_size: 64
+batch_size: 2
 pretrained_model: ""
 train_data: "ASRDataset/train_list.txt"
 val_data: "ASRDataset/val_list.txt"
